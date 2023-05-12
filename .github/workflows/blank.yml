@@ -23,5 +23,5 @@ jobs:
           git fetch
           git checkout dev
 
-          git merge main
+          git pull origin main
           git push
