@@ -23,5 +23,6 @@ jobs:
           git fetch
           git checkout dev
 
-          git merge main --allow-unrelated-histories
-          git push
+          git pull --tags origin main
+          git pull --tags origin dev
+          git push origin dev:dev
