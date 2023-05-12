@@ -23,5 +23,5 @@ jobs:
           git fetch
           git checkout dev
 
-          git pull origin main
+          git merge main --allow-unrelated-histories
           git push
